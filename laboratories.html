@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Advanced Laboratories • Siksha Bharati College</title>
+<link rel="stylesheet" href="style.css">
+
+<style>
+  .lab-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin-top: 32px;
+  }
+
+  .lab-card {
+    background: #cce0ff;
+    padding: 18px;
+    border-radius: 8px;
+    text-align: center;
+  }
+
+  .lab-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+
+ 
+
+</style>
+
+</head>
+
+<body>
+
+<header class="header">
+  <div class="navbar">
+    <div class="brand">
+      <div class="logo"></div>
+      <h1>Siksha Bharati College</h1>
+    </div>
+    <nav class="navlinks">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="science.html" class="active">Science</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container" style="padding:20px;">
+
+<h2>Advanced Laboratories</h2>
+<p>Our laboratories are equipped with modern tools and technologies that support hands-on learning and innovation.</p>
+
+<!-- Existing Card -->
+<div class="card" style="padding:20px; background:#cce0ff; border-radius:15px;margin:14px">
+  <h3>Facilities Available</h3>
+  <ul>
+    <li>Physics Laboratory</li>
+    <li>Chemistry Laboratory</li>
+    <li>Computer Science Laboratory</li>
+  </ul>
+</div>
+
+<div class="lab-gallery">
+
+  <!-- Card 1 -->
+  <div class="lab-card">
+    <img src="images/physicslab.jpeg" alt="Laboratory 1">
+    <h4>Physics Research Lab</h4>
+    <p>High-end instruments for advanced physics experiments.</p>
+  </div>
+
+  <!-- Card 2 -->
+  <div class="lab-card">
+    <img src="images/chemistrylab.jpeg.jpeg" alt="Laboratory 2">
+    <h4>Chemistry Lab</h4>
+    <p>Well-equipped setup with modern chemical apparatus.</p>
+  </div>
+
+  <!-- Card 3 -->
+  <div class="lab-card">
+    <img src="images/com.jpeg" alt="Laboratory 3">
+    <h4>Computer Science Lab</h4>
+    <p>Systems for programming, AI, and hardware experiments.</p>
+  </div>
+
+</div>
+
+</main>
+
+<div class="back-home-container">
+  <a href="about.html" class="back-btn">⬅ Back</a>
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <p>© 2025 Siksha Bharati College</p>
+  </div>
+</footer>
+
+</body>
+</html>
