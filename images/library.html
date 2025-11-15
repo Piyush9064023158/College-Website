@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Advanced Laboratories • Siksha Bharati College</title>
+<link rel="stylesheet" href="style.css">
+
+<style>
+  .lab-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin-top: 32px;
+  }
+
+  .lab-card {
+    background: #cce0ff;
+    padding: 18px;
+    border-radius: 8px;
+    text-align: center;
+  }
+
+  .lab-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+
+ 
+
+</style>
+
+</head>
+
+<body>
+
+<header class="header">
+  <div class="navbar">
+    <div class="brand">
+      <div class="logo"></div>
+      <h1>Siksha Bharati College</h1>
+    </div>
+    <nav class="navlinks">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="science.html" class="active">Science</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container" style="padding:20px;">
+
+<h2Library & Learning</h2>
+<p>The college library offer a peaceful learning environment with a large collections of books and online resources.</p>
+
+<!-- Existing Card -->
+<div class="card" style="padding:20px; background:#cce0ff; border-radius:15px;margin:14px">
+  <h3>Library Features</h3>
+  <ul>
+    <li>Thousand of academic books</li>
+    <li>Quiet reading areas</li>
+    <li>Degitals e-library access</li>
+  </ul>
+</div>
+
+<div class="lab-gallery">
+
+  <!-- Card 1 -->
+  <div class="lab-card">
+    <img src="images/book.jpeg" alt="Laboratory 1">
+    <h4>Book Archive Section</h4>
+    <p>Thousands of books arranged for easy access.</p>
+  </div>
+
+  <!-- Card 2 -->
+  <div class="lab-card">
+    <img src="images/hall.jpeg" alt="Laboratory 2">
+    <h4>Reading Hall</h4>
+    <p>Calm and silent reading space for students.</p>
+  </div>
+
+  <!-- Card 3 -->
+  <div class="lab-card">
+    <img src="images/elearning.jpeg" alt="Laboratory 3">
+    <h4>Digital Learning Area</h4>
+    <p>Computers and digital tools for research.</p>
+  </div>
+
+</div>
+
+</main>
+
+<div class="back-home-container">
+  <a href="about.html" class="back-btn">⬅ Back</a>
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <p>© 2025 Siksha Bharati College</p>
+  </div>
+</footer>
+
+</body>
+</html>
